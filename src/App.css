@@ -1,0 +1,67 @@
+.q{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 10vh;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.in_quote{
+  border : 2px solid;
+  padding: 1%;
+  font-size: large;
+}
+
+.button{
+  margin-top: 7px;
+  margin-right: 6px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+
+.list{
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  font-size: x-large;
+  margin-bottom: 3vh;
+
+}
+
+.added_quote{
+  border : 2px solid;
+  padding: 1%;
+  margin: 1vh;
+  width: 80vw;
+}
+
+.quo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.added_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delete{
+  cursor: pointer;
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+.back-gradient-moving{
+  background: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
